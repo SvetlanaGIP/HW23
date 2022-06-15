@@ -20,7 +20,7 @@ namespace HW23
         static void Factorial(int n)
         {
             int s = 1;
-            for (int i = 1; i < n; i++)
+            for (int i = 1; i <= n; i++)
             {
                 s *= i;
                 Thread.Sleep(10);
